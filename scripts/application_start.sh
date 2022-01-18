@@ -16,4 +16,5 @@ npm install
 # Bloquea los registros normales en este
 # > app.out.log 2> app.err.log < /dev/null & 
 pm2 stop server
+npm run build
 pm2 start server.js
